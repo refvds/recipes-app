@@ -1,0 +1,9 @@
+@import '../../styles/abstracts/variables';
+
+.header {
+  background-color: $secondary;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
