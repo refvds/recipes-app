@@ -1,0 +1,10 @@
+@mixin wrapper($width) {
+  max-width: $width;
+  margin: 0 auto;
+}
+
+@mixin adaptiveTo($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
